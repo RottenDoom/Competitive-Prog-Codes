@@ -7,6 +7,9 @@ def BBlanckspace(L):
         elif i == 1:
             l.append(s)
             s = 0
+    if s > 0:
+        l.append(s)
+        s = 0
     if len(l) == 0:
         return 0
     else:
